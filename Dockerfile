@@ -19,6 +19,6 @@ RUN chmod 1777 /downloads
 
 EXPOSE 9091 51413
 
-COPY startup.sh /root/
+COPY entrypoint.sh /root/
 
-ENTRYPOINT ["/root/startup.sh"]
+ENTRYPOINT ["/root/entrypoint.sh"]
