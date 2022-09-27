@@ -1,4 +1,4 @@
-FROM debian:sid-slim
+FROM debian:buster-slim
 
 LABEL maintainer="Matthieu Bargheon <bh@bhtech.io>"
 LABEL git="https://github.com/bh42/docker-transmission"
